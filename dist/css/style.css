@@ -1,0 +1,168 @@
+body {
+    height: 300em;
+}
+/* start upper bar */
+.info-icon{
+    float: left;
+    margin: 0 -4px;
+    padding: 8px;
+}
+ /* End upper bar */
+
+
+ /* start navbar */
+ .navbar-nav{
+    margin: 0 auto;
+}
+.nav-link{
+    margin: 0 40px;
+}
+.navbar-light .navbar-nav .nav-link {
+   color: rgb(255 255 255);
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+   color: rgb(255 255 255);
+   background-color: #1619bd;
+}
+ /* End navbar */
+
+ /* start slider */
+ .text_position h1 {
+    color: rgb(255 255 255 / 90%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding-top: 75px;
+}
+.text_position p {
+    color: rgb(204, 203, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding-top: 0,5em;
+    color: rgb(251 31 30);
+}
+
+.carousel-caption {
+    right: 0 !important;
+    left: 0 !important;
+    margin-top: -75px;
+}
+.text_position {
+    top: 280px;
+    background-color: rgb(0 0 0 / 32%);
+    height: 318px;
+    
+}
+
+.service_items h1 {
+    font-size: 3em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgb(97, 96, 96);
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ /* End slider */
+ /*start contacy-us*/
+ .contact-us{
+     padding: 50px 0;
+     background-color: #101010db;
+     color: white;
+     font-size: 18px;
+     margin-top: 20px;
+ }
+ .contact-us span{
+     color: rgb(239 32 31);
+ }
+ .contact-us p {
+     padding-top: 20px;
+ }
+ /*end contacy-us*/
+ /*start Features*/
+ .Features{
+     padding: 50px 0;
+ }
+ .Features h3{
+     font-size: 20px;
+     margin-top: 33px;
+ }
+ /* end Features*/
+ /*start services*/
+ .services {
+     background-color: rgba(179, 176, 176, 0.342);
+    }
+ .services .container-fluid {
+     padding: 70px;
+ }
+ .services h2 {
+     padding-top: 33px;
+     font-weight: bold;
+     font-size: 36px;
+ }
+ .services span {
+     color: rgb(193 43 42);
+ }
+ .services img {
+     border: 6px solid#cec6c6ba;
+ }
+/*end services*/
+/*start Qui sommes-nous */
+.chosse-us img{
+    max-width: 100%;
+}
+.chosse-us .col-sm-12{
+    padding: 0;
+}
+.chosse-us .col-sm-12:last-child{
+    background-color: #101010db;
+}
+.chosse-us p {
+    margin: 40px;
+    line-height: 2;
+    font-size: 20px;
+    color: white;
+}
+.chosse-us .h1 {
+    margin: 40px;
+}
+/*End Qui sommes-nous */
+/* section Nos-Valeur*/
+.hidden h2 {
+    padding-top: 33px;
+     font-weight: bold;
+     font-size: 36px;
+}
+.hidden span {
+    color: rgb(193 43 42);
+}
+/*End section Nos-Valeur*/
+/*start nos services*/
+/*End nos services*/
+
+
+
